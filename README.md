@@ -1,6 +1,6 @@
 # Title
 
-this is
+this is config file for mac.
 
 ```python
 def func()->None:

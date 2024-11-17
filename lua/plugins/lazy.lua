@@ -49,6 +49,8 @@ require('lazy').setup({
 	    end
     },
 
+    {"jiangmiao/auto-pairs", version = "*"},
+
     {'neovim/nvim-lspconfig'},
     {'hrsh7th/cmp-nvim-lsp'},
     {'hrsh7th/nvim-cmp'},
