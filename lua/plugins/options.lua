@@ -1,4 +1,4 @@
-vim.cmd("colorscheme catppuccin-mocha")
+vim.cmd("colorscheme cyberdream")
 
 vim.opt.termguicolors = true
 require("bufferline").setup()
