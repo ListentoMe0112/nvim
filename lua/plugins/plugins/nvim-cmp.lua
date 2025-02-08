@@ -9,6 +9,7 @@ return {
         cmp.setup({
           sources = {
             {name = 'nvim_lsp'},
+            {name = 'vimtex', },
           },
           mapping = cmp.mapping.preset.insert({
             ['<C-Space>'] = cmp.mapping.complete(),

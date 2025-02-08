@@ -47,3 +47,4 @@ vim.api.nvim_create_autocmd("BufReadPost", {
     end
   end
 }) -- return to last edit postion when opening files
+
