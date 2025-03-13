@@ -20,6 +20,9 @@ vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 
+vim.opt.termguicolors = true
+-- require("nvim-tree").setup()
+-- require("bufferline").setup()
 
 vim.api.nvim_create_autocmd({"BufNewFile", "BufRead"}, {
     pattern = "*.py",

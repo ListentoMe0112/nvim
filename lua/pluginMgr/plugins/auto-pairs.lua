@@ -1,3 +1,4 @@
 return {
-    {"jiangmiao/auto-pairs", version = "*"},
+    "jiangmiao/auto-pairs", 
+    version = "*",
 }

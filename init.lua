@@ -1,5 +1,3 @@
 require("keymaps")
 require("options")
 require("pluginMgr.lazy")
-require("pluginMgr.keymaps")
-require("pluginMgr.options")

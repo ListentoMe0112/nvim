@@ -1,5 +1,4 @@
 return {
-    {
       'rmagatti/auto-session',
       config = function()
         require("auto-session").setup {
@@ -7,5 +6,4 @@ return {
           auto_session_suppress_dirs = {"~/", "~/Downloads"},
         }
         end
-    },
 }

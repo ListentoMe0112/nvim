@@ -1,6 +1,5 @@
 return {
 -- format
-    {
       "jay-babu/mason-null-ls.nvim",
       event = { "BufReadPre", "BufNewFile" },
       dependencies = {
@@ -20,5 +19,4 @@ return {
         },
         })
       end,
-  }
 }

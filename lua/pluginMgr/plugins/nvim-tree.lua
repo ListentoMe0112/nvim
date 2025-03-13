@@ -1,5 +1,4 @@
 return {
- {
 	    "nvim-tree/nvim-tree.lua",
 	    version="*",
 	    lazy = false,
@@ -7,7 +6,8 @@ return {
 		    "nvim-tree/nvim-web-devicons",
 	    },
 	    config = function()
-		    require("nvim-tree").setup {}
+	require("nvim-tree").setup()
+        --tree
+        vim.keymap.set("n", "<leader>e", ":NvimTreeFindFileToggle<cr>")
 	    end,
-  },
 }

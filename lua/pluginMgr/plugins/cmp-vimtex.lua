@@ -1,5 +1,4 @@
 return {
-    {
 
       "micangl/cmp-vimtex",
       config = function()
@@ -7,5 +6,4 @@ return {
 
         }) 
         end
-    },
 }
